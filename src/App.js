@@ -1,5 +1,4 @@
 import "./App.css";
-import AnimatedBackground from "./Components/AnimatedBackground/AnimatedBackground";
 import IconDetails from "./Components/IconDetails/IconDetails";
 import Main from "./Components/MainComponent/Main";
 import { useState } from "react";
@@ -18,7 +17,6 @@ function App() {
 
   return (
     <div className="outer_container">
-      <AnimatedBackground />
       <div className="main_container">
         <div className="main_container_inner">
           <div className="App">
